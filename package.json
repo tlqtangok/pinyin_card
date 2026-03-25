@@ -1,0 +1,12 @@
+{
+  "name": "pinyin-kids",
+  "version": "1.0.0",
+  "description": "Colorful Pinyin learning app for kids",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌈 拼音乐园 - Pinyin Fun!</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="rainbow-text">🎵 拼音乐园 🎵</h1>
+            <p class="subtitle">点击拼音听发音！Click to hear sounds!</p>
+        </header>
+
+        <div class="controls">
+            <button class="filter-btn active" data-filter="all">全部 All</button>
+            <button class="filter-btn" data-filter="a">a</button>
+            <button class="filter-btn" data-filter="b">b</button>
+            <button class="filter-btn" data-filter="c">c</button>
+            <button class="filter-btn" data-filter="d">d</button>
+            <button class="filter-btn" data-filter="e">e</button>
+            <button class="filter-btn" data-filter="f">f</button>
+            <button class="filter-btn" data-filter="g">g</button>
+            <button class="filter-btn" data-filter="h">h</button>
+            <button class="filter-btn" data-filter="j">j</button>
+            <button class="filter-btn" data-filter="k">k</button>
+            <button class="filter-btn" data-filter="l">l</button>
+            <button class="filter-btn" data-filter="m">m</button>
+            <button class="filter-btn" data-filter="n">n</button>
+            <button class="filter-btn" data-filter="o">o</button>
+            <button class="filter-btn" data-filter="p">p</button>
+            <button class="filter-btn" data-filter="q">q</button>
+            <button class="filter-btn" data-filter="r">r</button>
+            <button class="filter-btn" data-filter="s">s</button>
+            <button class="filter-btn" data-filter="t">t</button>
+            <button class="filter-btn" data-filter="w">w</button>
+            <button class="filter-btn" data-filter="x">x</button>
+            <button class="filter-btn" data-filter="y">y</button>
+            <button class="filter-btn" data-filter="z">z</button>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>加载中... Loading...</p>
+        </div>
+
+        <div id="grid" class="pinyin-grid"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
