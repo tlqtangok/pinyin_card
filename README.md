@@ -2,6 +2,8 @@
 
 A colorful and interactive Pinyin learning web app designed for young children (5 years old) to learn Chinese pronunciation.
 
+![UI Screenshot](public/img/ui.png)
+
 ## ✨ Features
 
 - 🎨 **Colorful & Attractive**: Rainbow gradients, animations, and child-friendly design
